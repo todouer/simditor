@@ -1,7 +1,7 @@
 # Simditor extension for laravel-admin
 
 
-This is a `laravel-admin` extension that integrates [Simditor](https://github.com/mycolorway/simditor) into the `laravel-admin` form.
+This is a `laravel-admin` extension that integrates [Simditor](https://github.com/mycolorway/simditor) into the `laravel-admin` form. It works with both the historical `encore/laravel-admin` package and the community-maintained [`php-casbin/laravel-admin`](https://github.com/php-casbin/laravel-admin) fork that targets Laravel 12.
 ## Screenshot
 
 <img alt="simditor" src="https://user-images.githubusercontent.com/2421068/45915071-0e9c8f00-be81-11e8-94b5-8094113b71f1.png">
