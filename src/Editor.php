@@ -1,8 +1,8 @@
 <?php
 
-namespace Jxlwqq\Simditor;
+namespace Tudouer\Simditor;
 
-use Encore\Admin\Form\Field;
+use Casbin\Admin\Form\Field;
 
 class Editor extends Field
 {

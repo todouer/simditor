@@ -1,32 +1,29 @@
 {
-    "name": "jxlwqq/simditor",
+    "name": "tudouer/simditor",
     "description": "Simditor for Laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
-    "homepage": "https://github.com/jxlwqq/simditor",
+    "homepage": "https://github.com/tudouer/simditor",
     "license": "MIT",
     "authors": [
         {
-            "name": "jxlwqq",
-            "email": "jxlwqq@gmail.com"
+            "name": "tudouer",
+            "email": "tudouer@gmail.com"
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "encore/laravel-admin": "~1.6"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~6.0"
+        "php": "^8.1",
+        "casbin/laravel-admin": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "Jxlwqq\\Simditor\\": "src/"
+            "Tudouer\\Simditor\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Jxlwqq\\Simditor\\SimditorServiceProvider"
+                "Tudouer\\Simditor\\SimditorServiceProvider"
             ]
 
         }
